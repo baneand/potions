@@ -1,0 +1,54 @@
+[IDENT]
+title=Potions
+name=potions
+vendor=ArdeaGames
+callstyle=2
+code=837d
+dir=c:\ArdeaGames\Games
+exe=unitygame.exe
+single=1
+legacy=0
+args=GAMEDEF=potions.gamedef BUILD=\unity\potions.exe GRAPHICS="-popupwindow -adapter2 -gpu 0 "
+
+[LIMITS]
+inhibits=I,0,2,3001,2
+rewards=I,0,1,3002,1
+sounds=I,0,1,3003,1
+streams=I,3,3,3000,3
+
+[OPTIONS]
+#required items
+artifactholdofftime=I,0,100,91,0
+class=T+,,defs.pclass,3,['SMR', 'EXP']
+filter_smoothing_time=T,,defs.fst,101,Default
+filter_step_size=T,,defs.filter_steps,30,Default
+legend=T,,,2,Potions
+maxartifacts=I,0,20,92,0
+maximum_session_time=I,45,100,90,
+minimumrewardontasktime=D,0.0,30.0,81,
+minimumrewardtime=D,0.0,30.0,80,
+pause=I,1,100,5,10
+requiredpercentontask=I,10,100,83,
+scoring=B,,,9,1
+#added items
+rewardsound=T,,defs.rewardsound_choices,1815,Little Bell Short
+
+[DEFS]
+#required
+filter_steps=T,-,H,3500,['0.125','0.25','0.5','Default']
+fst=T,-,H,3501,['Default','.1','.2','.3','.4','.5','.6','.7','.8','.9']
+pclass=T,-,H,3502,["SMR","EXP","AT"]
+#potions added
+rewardsound_choices=T,,,,['Little Bell Short', 'Boop', 'Coin Dot', 'Coin Reward Slow', 'Coin Reward', 'Reward High Coin', 'Piano Reward', 'Piano Reward 2', 'Piano Reward 3', 'Guitar Reward']
+
+[HELP]
+ident.code=Game execution code
+ident.exe=Name of game executable
+ident.name=Internal (fixed) game name
+ident.title=Default game title
+ident.vendor=Vendor name
+ident.version=4.1
+limits.inhibits=Maximum number of inhibit channels to use
+limits.rewards=Maximum number of reward channels to use
+limits.streams=Maximum number of strands to use
+options.rewardsound=Select the reward sound you would like to use

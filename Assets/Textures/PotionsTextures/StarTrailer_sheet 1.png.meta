@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: a8252cfee5655874ab8ff75a38001e68
+timeCreated: 1479147248
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: StarTrailer_sheet 1_0
+    21300002: StarTrailer_sheet 1_1
+    21300004: StarTrailer_sheet 1_2
+    21300006: StarTrailer_sheet 1_3
+    21300008: StarTrailer_sheet 1_4
+    21300010: StarTrailer_sheet 1_5
+    21300012: StarTrailer_sheet 1_6
+    21300014: StarTrailer_sheet 1_7
+    21300016: StarTrailer_sheet 1_8
+    21300018: StarTrailer_sheet 1_9
+    21300020: StarTrailer_sheet 1_10
+    21300022: StarTrailer_sheet 1_11
+    21300024: StarTrailer_sheet 1_12
+    21300026: StarTrailer_sheet 1_13
+    21300028: StarTrailer_sheet 1_14
+    21300030: StarTrailer_sheet 1_15
+    21300032: StarTrailer_sheet 1_16
+    21300034: StarTrailer_sheet 1_17
+    21300036: StarTrailer_sheet 1_18
+    21300038: StarTrailer_sheet 1_19
+    21300040: StarTrailer_sheet 1_20
+    21300042: StarTrailer_sheet 1_21
+    21300044: StarTrailer_sheet 1_22
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: StarTrailer_sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90, y: -156}
+        - {x: 85, y: -160}
+        - {x: 85, y: -178}
+        - {x: 86, y: -189}
+        - {x: 90, y: -192}
+        - {x: 94, y: -192}
+        - {x: 98, y: -191}
+        - {x: 100, y: -187}
+        - {x: 100, y: -159}
+        - {x: 99, y: -156}
+    - name: StarTrailer_sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85, y: -132}
+        - {x: 85, y: -194}
+        - {x: 96, y: -194}
+        - {x: 100, y: -193}
+        - {x: 105, y: -163}
+        - {x: 105, y: -134}
+        - {x: 102, y: -132}
+    - name: StarTrailer_sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: -118}
+        - {x: 83, y: -199}
+        - {x: 98, y: -199}
+        - {x: 104, y: -190}
+        - {x: 104, y: -118}
+    - name: StarTrailer_sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112, y: -100}
+        - {x: 105, y: -96}
+        - {x: 96, y: -96}
+        - {x: 91, y: -100}
+        - {x: 84, y: -152}
+        - {x: 84, y: -193}
+        - {x: 90, y: -196}
+        - {x: 99, y: -196}
+        - {x: 103, y: -190}
+        - {x: 113, y: -165}
+        - {x: 113, y: -102}
+    - name: StarTrailer_sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -96}
+        - {x: 90, y: -99}
+        - {x: 84, y: -114}
+        - {x: 84, y: -196}
+        - {x: 98, y: -196}
+        - {x: 104, y: -190}
+        - {x: 115, y: -167}
+        - {x: 115, y: -105}
+        - {x: 113, y: -96}
+    - name: StarTrailer_sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 107, y: -81}
+        - {x: 89, y: -81}
+        - {x: 82, y: -139}
+        - {x: 82, y: -194}
+        - {x: 83, y: -197}
+        - {x: 85, y: -199}
+        - {x: 107, y: -199}
+        - {x: 116, y: -178}
+        - {x: 116, y: -94}
+        - {x: 113, y: -83}
+    - name: StarTrailer_sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: -63}
+        - {x: 84, y: -65}
+        - {x: 82, y: -92}
+        - {x: 82, y: -199}
+        - {x: 116, y: -199}
+        - {x: 116, y: -63}
+    - name: StarTrailer_sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: -46}
+        - {x: 90, y: -46}
+        - {x: 83, y: -100}
+        - {x: 83, y: -191}
+        - {x: 88, y: -195}
+        - {x: 97, y: -195}
+        - {x: 104, y: -194}
+        - {x: 116, y: -159}
+        - {x: 116, y: -80}
+        - {x: 115, y: -62}
+    - name: StarTrailer_sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: -31}
+        - {x: 88, y: -31}
+        - {x: 82, y: -33}
+        - {x: 82, y: -197}
+        - {x: 106, y: -197}
+        - {x: 117, y: -174}
+        - {x: 117, y: -84}
+        - {x: 109, y: -33}
+    - name: StarTrailer_sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104, y: -31}
+        - {x: 85, y: -31}
+        - {x: 82, y: -32}
+        - {x: 82, y: -197}
+        - {x: 105, y: -197}
+        - {x: 117, y: -171}
+        - {x: 117, y: -82}
+        - {x: 110, y: -33}
+    - name: StarTrailer_sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: -19}
+        - {x: 105, y: -14}
+        - {x: 90, y: -14}
+        - {x: 82, y: -68}
+        - {x: 82, y: -196}
+        - {x: 89, y: -199}
+        - {x: 100, y: -199}
+        - {x: 102, y: -193}
+        - {x: 117, y: -155}
+        - {x: 117, y: -104}
+    - name: StarTrailer_sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: 0}
+        - {x: 89, y: 0}
+        - {x: 82, y: -45}
+        - {x: 82, y: -186}
+        - {x: 85, y: -193}
+        - {x: 100, y: -193}
+        - {x: 117, y: -162}
+        - {x: 117, y: -85}
+        - {x: 106, y: -4}
+    - name: StarTrailer_sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: -165}
+        - {x: 117, y: -165}
+        - {x: 117, y: -47}
+        - {x: 114, y: 0}
+        - {x: 88, y: 0}
+        - {x: 82, y: -18}
+    - name: StarTrailer_sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: 0}
+        - {x: 82, y: -26}
+        - {x: 82, y: -166}
+        - {x: 107, y: -166}
+        - {x: 117, y: -161}
+        - {x: 117, y: -56}
+        - {x: 109, y: 0}
+    - name: StarTrailer_sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 0}
+        - {x: 96, y: 0}
+        - {x: 87, y: -1}
+        - {x: 82, y: -79}
+        - {x: 82, y: -167}
+        - {x: 103, y: -167}
+        - {x: 117, y: -153}
+        - {x: 117, y: -116}
+        - {x: 110, y: -30}
+    - name: StarTrailer_sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: -1}
+        - {x: 93, y: -1}
+        - {x: 84, y: -13}
+        - {x: 84, y: -146}
+        - {x: 85, y: -149}
+        - {x: 115, y: -149}
+        - {x: 116, y: -146}
+        - {x: 116, y: -79}
+        - {x: 105, y: -3}
+    - name: StarTrailer_sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101, y: -2}
+        - {x: 91, y: -2}
+        - {x: 85, y: -16}
+        - {x: 84, y: -45}
+        - {x: 84, y: -130}
+        - {x: 102, y: -149}
+        - {x: 115, y: -149}
+        - {x: 116, y: -146}
+        - {x: 116, y: -77}
+        - {x: 106, y: -5}
+    - name: StarTrailer_sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91, y: -4}
+        - {x: 91, y: -61}
+        - {x: 96, y: -122}
+        - {x: 103, y: -130}
+        - {x: 115, y: -130}
+        - {x: 115, y: -45}
+        - {x: 106, y: -4}
+    - name: StarTrailer_sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104, y: -17}
+        - {x: 100, y: -17}
+        - {x: 96, y: -19}
+        - {x: 96, y: -102}
+        - {x: 102, y: -105}
+        - {x: 111, y: -105}
+        - {x: 112, y: -104}
+        - {x: 112, y: -73}
+        - {x: 109, y: -25}
+    - name: StarTrailer_sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -18}
+        - {x: 96, y: -75}
+        - {x: 100, y: -83}
+        - {x: 110, y: -83}
+        - {x: 110, y: -26}
+        - {x: 106, y: -18}
+    - name: StarTrailer_sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: -18}
+        - {x: 96, y: -19}
+        - {x: 96, y: -57}
+        - {x: 99, y: -63}
+        - {x: 109, y: -63}
+        - {x: 109, y: -18}
+    - name: StarTrailer_sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100, y: -18}
+        - {x: 97, y: -20}
+        - {x: 97, y: -58}
+        - {x: 101, y: -63}
+        - {x: 107, y: -63}
+        - {x: 109, y: -61}
+        - {x: 109, y: -33}
+        - {x: 105, y: -18}
+    - name: StarTrailer_sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104, y: -19}
+        - {x: 99, y: -19}
+        - {x: 97, y: -20}
+        - {x: 97, y: -37}
+        - {x: 100, y: -39}
+        - {x: 105, y: -39}
+        - {x: 106, y: -38}
+        - {x: 106, y: -21}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

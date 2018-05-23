@@ -1,0 +1,9 @@
+image: bigbadtrumpet/pyinstaller_boto3:v1
+
+pipelines:
+  branches:
+    '*':
+      - step:
+          script:
+            - python fileupload.py eeger-python-build ${BITBUCKET_BRANCH}
+            - python fileupload.py eeger-python-build ${BITBUCKET_BRANCH}/${BITBUCKET_COMMIT}
