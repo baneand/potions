@@ -3,14 +3,14 @@
 #define MyAppName "Potions"
 #define MyAppVersion "0.1"
 #define MyAppPublisher "ArdeaGames"
-#define FolderName "Potions"
+#define FolderName "potions"
 #define GameCode "837d"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{D0CB3629-6B72-4767-9BB5-C037E4BE9148}}
+AppId={{E849B846-3562-44BF-A810-48D0F551DC02}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -30,4 +30,3 @@ Source: "dist\{#FolderName}\*"; DestDir: "{app}\{#FolderName}"; Flags: recursesu
 
 [INI]
 FileName: "C:\EEGer\Games\GamePaths\ArdeaGames.ini"; Section: "GamePath"; Key: "{#GameCode}"; String: "{app}"; Flags: uninsdeleteentry
-
