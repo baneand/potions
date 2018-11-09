@@ -30,8 +30,7 @@ public abstract class PotionsVialController : MonoBehaviour, IStrandIndicator
 
     protected virtual void Update()
     {
-        var originalRotation = m_FillTransform.localRotation *
-                               Quaternion.Euler(0f, 0f, CurrPosition * Time.deltaTime * m_RotationLerpSpeed);
+        var originalRotation = m_FillTransform.localRotation * Quaternion.Euler(0f, 0f, CurrPosition * Time.deltaTime * m_RotationLerpSpeed);
         m_FillTransform.localRotation = originalRotation;
     }
 
