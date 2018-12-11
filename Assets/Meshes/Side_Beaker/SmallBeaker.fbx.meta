@@ -23,6 +23,7 @@ ModelImporter:
     400016: transform3
     2100000: lambert1
     2100002: blinn1
+    2100004: lambert2
     2300000: pPipe4
     2300002: polySurface1
     2300004: polySurface2
