@@ -8,7 +8,7 @@ dir=c:\ArdeaGames\potions
 exe=unitygame.exe
 single=1
 legacy=0
-args=GAMEDEF=potions.gamedef BUILD=\unity\potions.exe GRAPHICS="-popupwindow -adapter2 -gpu 0 "
+args=GAMEDEF=potions.gamedef BUILD=\unity\potions.exe GRAPHICS="-popupwindow -adapter1 -gpu 0 "
 
 [LIMITS]
 inhibits=I,0,2,3001,2
