@@ -12,14 +12,19 @@ public class IntroScene : MonoBehaviour
 
     [SerializeField] private RectTransform m_ProgressRectTransform;
     [SerializeField] private CanvasGroup m_CanvasGroup;
-	// Use this for initialization
-	IEnumerator Start ()
+    private AsyncOperation AO;
+    // Use this for initialization
+    IEnumerator Start ()
 	{
 	    float totalTime = 0f;
+        AO = SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        AO.allowSceneActivation = false;
+        
+        
 	    while (totalTime < m_ProgressTime)
 	    {
 	        totalTime += Time.deltaTime;
-            m_ProgressRectTransform.anchorMax = new Vector2(totalTime/m_ProgressTime, 1f);
+            //m_ProgressRectTransform.anchorMax = new Vector2(totalTime/m_ProgressTime, 1f);
             yield return null;
 	    }
         SwitchScenes();
@@ -28,8 +33,8 @@ public class IntroScene : MonoBehaviour
     //unity tends to not like loading scene from coroutines so we call it in a regular function
     private void SwitchScenes()
     {
-        SceneManager.LoadScene(1, LoadSceneMode.Additive);
-        StartCoroutine(CoFadeOutIntro());
+        AO.allowSceneActivation = true;
+       
     }
 
     IEnumerator CoFadeOutIntro()
